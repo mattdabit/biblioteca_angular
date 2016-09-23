@@ -1,1 +1,6 @@
-<p>This is the partial for view 1.</p>
+<p>Welcome to Biblioteca the Angular way.</p>
+<div ng-controller="View1Ctrl">
+    <ul>
+        <li ng-repeat="title in response.books">{{title}}</li>
+    </ul>
+</div>
